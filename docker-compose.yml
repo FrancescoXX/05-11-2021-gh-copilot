@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  goapp:
+    container_name: gonic
+    image: francescoxx/gonic
+    build: .
+    ports:
+      - "8080:8080"
